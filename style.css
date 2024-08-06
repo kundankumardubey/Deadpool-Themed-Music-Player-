@@ -1,0 +1,130 @@
+@import url('https://fonts.google.com/share?selection.family=EB+Garamond:ital,wght@0,400..800;1,400..800|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    align-items: center;
+}
+.brand img{
+    width: 111px;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    
+    
+}
+body{
+    color: aliceblue;
+    background-color: #962333;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height:63vh;
+    background-color: rgb(147, 158, 35);
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    width: 75%;
+    
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 0.5rem;
+    background-image:url('back.png');
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:65px; ;
+    
+   
+}
+.icons{
+    
+    margin-top: 12px;
+    
+}
+.icons svg{
+    fill: white;
+    height: 25px;
+    cursor: pointer;
+    
+
+}
+
+.songName{
+    margin-top: 4px;
+}
+
+
+#progressbar{
+    width: 120vh;
+    
+}
+.songs svg{
+    fill:black;
+    width: 16px;
+    margin-top: 5px;  
+    margin-right:5px;  
+    cursor: pointer;
+}
+
+.songs img{
+    margin-left: 15px;
+    padding: 2px;
+    border-radius: 15px;
+}
+.songscontainer{
+    margin-top: 34px;
+}
+.songs{
+    font-size: 17px;
+    border-radius: 25px;
+    gap: 10px;
+
+    margin-top: 5px;
+    display: flex;
+    height: 30px;
+    background-color: white;
+    color: black;
+    justify-content: space-between;  
+}
+.songinfo{
+    margin-top: 5px;
+    margin-left: 150px;
+    display: flex;
+    position:absolute;
+    left: 12vw;
+    gap: 5px;
+    
+    
+    
+}
+.songinfo img{
+    height: 22px;
+    opacity: 0;
+    transition:opacity 0.3s ease-in;
+    
+    
+
+
+}
